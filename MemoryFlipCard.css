@@ -5,12 +5,22 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
+    
 
 }
 .nav button{
     width: 100px;
     height: 50px;
     border-radius: 9000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: normal;
+    background-color: green;
+    font-weight: 1000;
+    
+    
 
 }
 h1 {
@@ -24,4 +34,18 @@ h3 {
     color: #c55a11
 }
 
+
+.gameBoard {
+    background-color: antiquewhite;
+    border: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 475px;
+    height: 375px;
+    padding: 15px;
+    margin: 75px;
+    border-radius: 25px;
+
+
+}
 
