@@ -55,6 +55,8 @@ const cardsArray = [
 
 ]
 
+
+// random card sort
 cardsArray.sort(() => 0.5 - Math.random())
 
 // game board
@@ -109,7 +111,7 @@ function checkForMatch() {
 
 
 
-}
+
 
 
 
@@ -117,10 +119,14 @@ function checkForMatch() {
 
 /* Flip Cards over */
 function flipCard() {
-    var cardID = this.getAttribute('data-id')
+    // get the ID from the image
+    let cardID = this.getAttribute('data-id')
+    // pushes corresponding card name into the cards chosen array
     cardsChosen.push(cardsArray[cardID].name)
+    // pushes the card ID into cards chosen ID array
     cardsChosenID.push(cardID)
-    this.setAttribute('src', cardsArray[cardID].img)
+    // sets image to the card clicked on
+    this.setAttribute('src', cardsArray[cardID].image)
     if (cardsChosen.length === 2) {
         setTimeout(checkForMatch, 500)
 

@@ -18,15 +18,15 @@ body .gameBoard{
 
 }
 .nav button{
-    width: 100px;
+    /* width: 100px;
     height: 50px;
     border-radius: 9000px;
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-items: normal;
-    background-color: green;
-    font-weight: 1000;
+    justify-items: normal; */
+    /* background-color: green; */
+    /* font-weight: 1000; */
     
     
 
@@ -40,6 +40,11 @@ h1 {
 h2 {
     text-align: center;
     color: #c55a11
+}
+
+
+#butStart {
+    background-color: 
 }
 
 
