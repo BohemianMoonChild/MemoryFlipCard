@@ -60,7 +60,6 @@ const cardsArray = [
 cardsArray.sort(() => 0.5 - Math.random())
 
 // game board
-
 const gameBoard = document.querySelector('.gameBoard')
 const resultDisplay = document.querySelectorAll('#result')
 var cardsChosen = []
@@ -80,6 +79,14 @@ function createBoard() {
 
     }
 }
+
+// reset button setup
+function reset(){
+}
+let resetButton=document.getElementById("resetButton");
+resetButton.addEventListener("click", reset)
+
+
 
 
 /* Check for a match */
@@ -112,11 +119,6 @@ function checkForMatch() {
 
 
 
-
-
-
-
-
 /* Flip Cards over */
 function flipCard() {
     // get the ID from the image
@@ -131,6 +133,7 @@ function flipCard() {
         setTimeout(checkForMatch, 500)
 
     }
+
 
 }
 
