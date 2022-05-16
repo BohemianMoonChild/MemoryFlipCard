@@ -145,4 +145,8 @@ createBoard()
 
 
 
+// Get the button
+let btn = document.getElementById("myBtn");
+
 })
+

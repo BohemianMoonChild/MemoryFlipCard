@@ -3,10 +3,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 body .gameBoard{
     align-self: center;
 }
+
 
 .nav {
     display: flex;
@@ -132,5 +134,8 @@ h2 {
     border-radius: 25px;
 
 }
+
+
+
 
 
