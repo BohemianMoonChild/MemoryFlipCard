@@ -28,6 +28,12 @@ Attempted a video background, but I was not able to set it behind the gameboard 
 and "score" were the only elements that would appear in front of the video.  I was not able to figure 
 this one out.
 
+ATTEMPTING: 
+card flipping sound
+buzzer sound when no match is found
+confetti explosion when all matches are found
+
+
 
 Design:
 The design for the game is personal.  The best thing about this game is that one 
