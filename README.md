@@ -29,9 +29,9 @@ and "score" were the only elements that would appear in front of the video.  I w
 this one out.
 
 ATTEMPTING: 
-card flipping sound
-buzzer sound when no match is found
-confetti explosion when all matches are found
+card flipping sound <br>
+buzzer sound when no match is found<br>
+confetti explosion when all matches are found<br>
 
 
 
