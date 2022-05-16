@@ -13,6 +13,12 @@ are removed from the board.  To play again, player must click on the "reset" but
 I was not able to convert to two player.
 The score has not been set.
 
+Design:
+The design for the game is more personal.  The best thing about this game is that one 
+choose whatever images they'd like for the game.  I designed this game with my mother 
+in mind.  As she is struggling with Alzheimer, I designed the game around her using 
+familiar images such as family as well as colors
+
 
 ### Wireframe
 
